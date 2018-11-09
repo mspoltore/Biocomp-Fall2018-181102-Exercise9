@@ -36,3 +36,8 @@ means=c(northMean,southMean,eastMean,westMean)
 b=ggplot(data=dirMeans, aes(x=Region,y=Mean))
 b+geom_bar(stat="identity")
 
+# Part 3
+
+c=ggplot(data=data, aes(x=region, y=observations))
+c + geom_jitter()
+
